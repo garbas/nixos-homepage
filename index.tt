@@ -6,7 +6,7 @@
 
 
 <div class="jumbotron">
-  <img class="right-logo" src="[%root%]logo/nixos-logo-only-hires.png" alt="NixOS Logo"/>
+  <img class="right-sslogo" src="[%root%]logo/nixos-logo-only-hires.png" alt="NixOS Logo"/>
   <h1>NixOS</h1>
   <h2>The Purely Functional Linux Distribution</h2>
 
