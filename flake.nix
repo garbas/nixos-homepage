@@ -26,12 +26,12 @@
 
       nixPills = import nix-pills {
         inherit pkgs;
-        revCount = nix-pills.lastModifiedDate; # FIXME
+        revCount = nix-pills.lastModified; # FIXME
         shortRev = nix-pills.shortRev;
       };
 
       homepage = stdenv.mkDerivation {
-        name = "nixos-homepage-${self.lastModifiedDate}";
+        name = "nixos-homepage-${builtins.toString self.lastModified}";
 
         src = self;
 
